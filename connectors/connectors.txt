@@ -1,7 +1,0 @@
-FROM camunda/connectors-bundle:8.5.0
-
-EXPOSE 8080
-
-ENV CAMUNDA_CLIENT_MODE=self-managed
-ENV CAMUNDA_CLIENT_GRPC_ADDRESS=http://orchestration:26500
-ENV CAMUNDA_CLIENT_REST_ADDRESS=http://orchestration:8080
