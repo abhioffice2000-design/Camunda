@@ -6,4 +6,3 @@ EXPOSE 9300
 ENV discovery.type=single-node
 ENV xpack.security.enabled=false
 ENV cluster.routing.allocation.disk.threshold_enabled=false
-ENV logger.org.elasticsearch.deprecation=OFF
